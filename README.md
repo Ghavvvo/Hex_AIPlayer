@@ -15,7 +15,6 @@ La clase `IAPlayer` hereda de `Player` e implementa:
 El archivo `utils.py` proporciona funciones básicas para:
 - Eliminar fichas del tablero (`remove_piece`)
 - Verificar posiciones válidas (`is_on_board`)
-- 
 ## Jugadas Iniciales Predefinidas
 La IA implementa una estrategia de apertura:
 
