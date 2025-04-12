@@ -118,11 +118,11 @@ class IAPlayer(Player):
             board.place_piece(row, col, self.player_id)
 
             if len(moves) > 20:
-                local_score = minimax(depth=3)
+                local_score = minimax(depth=2)
             elif len(moves) > 10:
-                local_score = minimax(depth=6)
+                local_score = minimax(depth=4)
             else:
-                local_score = minimax(depth=8)
+                local_score = minimax(depth=6)
 
             remove_piece(board.board, row, col)
 
