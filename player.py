@@ -124,7 +124,7 @@ class IAPlayer(Player):
             else:
                 local_score = minimax(depth=8)
 
-            remove_piece(board_size, row, col)
+            remove_piece(board.board, row, col)
 
             if local_score > best_score:
                 best_score = local_score
