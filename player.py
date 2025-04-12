@@ -1,5 +1,5 @@
-from board import HexBoard
 from utils import is_on_board, remove_piece
+from hex_board import HexBoard
 
 class Player:
     def __init__(self, player_id: int):
